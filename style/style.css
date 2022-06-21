@@ -1,0 +1,578 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Smooch&display=swap');
+*{font-family: 'Iceberg', cursive;
+              }
+   body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-repeat: no-repeat;
+
+                  }
+    .headeR-Pyramid{ 
+    position: fixed;   
+         padding: 0rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 1rem 0rem;
+            display: flex;
+              justify-content: center;
+               background-color: rgba(43, 86, 138, .4);  
+                          }
+
+  .headeR-Pyramid{ 
+     width: 100%;
+               }
+
+  .pyramiD-Text {
+    color: white;
+      font-size: 3rem;
+        padding: 0rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 0rem 0rem;
+                  } 
+
+
+/* empieza nav y aside */
+.h3-Edicion{
+     font-size: 0rem;
+  margin: 0rem 0rem 0rem 0rem;
+
+}
+
+.sectioN-Nav-aside{
+   padding: 5rem 0rem 0rem 0rem;
+     margin: 0rem 0rem 0rem 0rem;
+               }
+   
+  .container-10{
+  height: 40rem;
+    background-image: url(..//img//imagenwachdogs.jpg); 
+background-size: 40cm 20cm;    
+     background-repeat: repeat;
+     background-position: 0cm 1cm;
+       grid-gap: 1rem;
+         display: grid;
+          grid-template-columns: 8rem ;
+           grid-template-rows: 1rem 0rem 0rem 10rem;
+            grid-template-areas: "nav" "nav" "nav"
+                                "aside"
+                                 "aside"
+                                 "aside";               
+                                     }
+  .naV-Gridd{
+    text-align: center;
+    background: #0f0c29;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+        grid-area: nav;
+          grid-column-start:1;
+            grid-column-end: 3;
+                  }
+
+  .asidE-Grid{
+     border-radius: 0rem 1rem 1rem 0rem;
+     background: #0f0c29;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0rem 0rem 0rem 0rem;
+         grid-area: aside;
+         
+          grid-row-start:4;
+            grid-row-end:  6;
+             grid-column-start: 0;
+               grid-column-end:0 ;
+
+                   }
+    .uL-Nav{
+     list-style: none;
+       margin: 0rem 0rem 0rem 0rem;
+         padding: .5rem 1rem 0rem 1rem;
+          justify-content:space-between;
+            display: flex;  }
+
+    .uL-Nav a{
+      color:#ffffff;
+       font-size: 1.2rem;
+         padding: 0rem 0rem 0rem 0rem;
+          text-decoration: none;
+                 }
+
+
+
+  .griDS-Aside{
+      padding: 0rem 0rem 0rem 0rem;
+       display: flex;
+        flex-direction: column;
+         list-style: none;
+               }
+
+  .griDS-Aside a{
+     color: #ffffff;
+       text-decoration: none;
+         padding: 0rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 0rem 0rem;
+            }
+
+
+  .griDS-Aside li{
+      padding: 2rem 0rem 1rem 1rem;
+               }
+
+  /* nav y aside con hover y transition */
+
+  .uL-Nav  a:hover{
+    color: #ec008c;
+    font-size: 1.3rem;
+    transition: all 1s;
+    
+     }
+
+     .griDS-Aside a:hover{
+      color: #ec008c;
+      font-size: 1.3rem;
+      transition: all 1s;
+      
+       }
+
+
+  /*termina nav y aside*/
+
+ 
+/* empieza section y main */
+
+ .griD-Img{
+  margin-left: 1rem;
+    margin-top: 2rem;
+       display: grid;
+         grid-gap: 1rem;
+           grid-column-gap: 1rem;
+             grid-row-gap: 2rem;
+              grid-column-gap: 1rem;
+                grid-template-columns: 1fr 1fr 1fr 1fr ;
+                       }     
+
+    .griD-Img div img{
+        padding: 0rem  0rem 0rem 0rem;
+          margin: 0rem -4rem 0rem 0rem ;
+           border-radius: 1rem;
+            height: 90%;
+                 } 
+
+  .griD-Img img:hover {
+       box-shadow: -23px 25px 0px -13px rgba(255,255,255,0.64);;
+          height: 100%;
+              transition: all 1s; }
+
+
+     .griD-Img div { 
+         color: orange;
+              font-size: 1.3rem; 
+                       }
+    
+
+
+    /*proximoslanzamientos.html*/
+
+  .backgorounD-De-Proximolanzamientos{
+    background-color:#0F2027 ;
+
+              }
+
+    .arT-Texh2{
+      font-size: 2rem;  
+    }
+
+
+
+  .gridS-Article{
+     margin: 38rem 0rem 0rem -7rem;
+    display: grid;
+          grid-row-gap: 5rem;
+               }
+
+    .gridS-Article  img{
+             height: 24.5rem;
+           padding-right: 9rem;
+              } 
+
+  .gridS-Article div{
+        color: orange;
+             } 
+             
+             .gridS-Article p{
+               line-height: 1.9rem;
+               padding: 0rem 0rem 0rem 0rem;
+               margin: 1rem 0rem 0rem 0rem;
+               font-size: 1.3rem;
+             } 
+  /* termina proximoslanzamientos.html*/
+
+/*media vista tablet*/
+  @media (max-width: 874px){
+  @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Smooch&display=swap');
+ *{font-family: 'Iceberg', cursive;
+  box-sizing: border-box;}
+
+   .headeR-Pyramid{
+      display: none;
+    } 
+    .naV-Edicion{
+    background-color: rgba(43, 86, 138, .4);;
+                }
+        .navbar-toggler-icon{
+          background-color: rgb(255, 255, 255);;
+        height: 2rem;
+          
+        }  
+        .navbar-toggler{ 
+          background-color: rgb(255, 255, 255);;
+       } 
+       .offcanvas{
+        background-color: rgba(43, 86, 138, 0.616);;
+       }
+       .offcanvas-title{
+        color: white;
+       } 
+       .nav-link{
+        color: white;
+       }      
+
+   /* empieza nav y aside */
+
+  .sectioN-Nav-aside{ 
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+               }
+
+   
+
+
+   .container-10{
+    display: none;
+    height: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background-image:  url(..//img//imagenwachdogs.jpg);
+       grid-gap: 1rem;
+        display: grid;
+          grid-template-columns: 8rem ;
+           grid-template-rows:  12rem 0rem 0rem 10rem ;
+            grid-template-areas:  "nav" 
+                                  "nav" 
+                                  "nav"
+                                  "aside"
+                                  "aside"
+                                  "aside" ;}
+  .naV-Gridd{
+    display: none;
+    border-radius: 0rem 1rem 1rem 0rem;
+       text-align:center;
+        background-color: orange ;
+         grid-area: nav;
+
+                  }
+
+
+  .asidE-Grid{
+    display: none;
+    border-radius: 0rem 1rem 1rem 0rem;
+      background-color: orange;
+       margin: 0rem 0rem 0rem 0rem;
+       grid-area: aside;
+                   }
+
+
+    .uL-Nav{
+
+     list-style: none;
+     margin: 0rem 0rem 0rem 0rem;
+      padding: 0rem 0rem 0rem 0rem;
+      text-align: left;
+       flex-direction: column;
+          display: flex;  }
+
+
+ .uL-Nav li{
+      padding: 1rem 0rem 0rem .3rem;
+                }
+
+    .uL-Nav a{
+        color: black;
+        font-size: 1rem;
+        margin: 0rem 0rem 0rem 0rem;
+        padding: 0rem 0rem 0rem 0rem;
+        text-decoration: none;
+             }
+
+
+
+  .griDS-Aside{
+      padding: 0rem 0rem 0rem 0rem;
+       display: flex;
+        flex-direction: column;
+         list-style: none;
+               }
+
+  .griDS-Aside a{
+    font-size: 1rem;
+     color: black;
+       text-decoration: none;
+         padding: 1rem 0rem 1rem 1rem;
+          margin: rem 0rem 0rem 0rem;
+            }
+
+
+  .griDS-Aside li{
+      padding: 1rem 0rem 0rem 0rem;
+               }
+
+ 
+
+
+  /*termina nav y aside*/
+
+/* empieza section y main */
+
+ .griD-Img{
+
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    grid-column-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr  ;
+                }     
+
+
+     .griD-Img div img{
+        padding: 0rem  0rem 0rem 0rem;
+        margin: 0rem -4rem 0rem 0rem ;
+        border-radius: 1rem;
+        height: 90%;
+            } 
+
+    .griD-Img img:hover {
+        box-shadow: -23px 25px 0px -13px rgba(255,255,255,0.64);;
+         height: 100%;
+              transition: all 1s; }
+
+
+     .griD-Img div {
+        color: orange;
+              font-size: 1rem; 
+                       }
+
+
+   .griD-Img div:hover{
+         color: orange;
+             font-size: 1.1rem;
+               transition: all 1s; 
+                       }
+
+
+
+    /*proximoslanzamientos.html*/
+
+    .arT-Texh2{
+      display: inline-flex;
+      margin: 0rem 0rem 0rem 0rem;
+      padding: 0rem 0re 0rem 0rem;
+    }
+    .gridS-Article{
+        margin: 0rem 0rem 0rem 0rem;
+        display: grid;
+        grid-row-gap: 3rem;
+
+              }
+
+       .gridS-Article  img{
+        border-radius: 2%;
+        height: 50vh;
+        width: 100vh;
+
+       } 
+
+      .gridS-Article div{
+          color: orange;
+             } 
+             .framE-Videos{
+              height: 1rem;
+             }        
+
+  /* termina proximoslanzamientos.html*/
+
+
+
+
+              }
+
+
+
+  /*media min para imagen vista mobile*/
+  @media (min-width: 875px){
+  .imG-Banner{display: none;}
+  .navbar {
+    display: none;
+               }
+        
+                  }
+  /* termina media min para imagen vista mobile*/ 
+
+
+
+
+/*media para vista mobile*/
+
+    @media (max-width: 425px){
+  @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Smooch&display=swap');
+ *{font-family: 'Iceberg', cursive;
+  box-sizing: border-box;}
+
+
+ .imG-Banner{
+    padding-top: 2rem;
+ }
+
+    .headeR-Pyramid{
+        width: 100%;
+                 }
+                 
+
+   .pyramiD-Text {
+      font-size: 3rem;
+        padding: 1rem 0rem 0rem 0rem;
+          margin: 0rem 0rem 0rem 0rem;
+                  } 
+
+   /* empieza nav y aside */
+
+ .sectioN-Nav-aside{
+    padding: 0rem 0rem 0rem 0rem;
+    margin: -5rem 0rem 0rem 0rem;
+               }
+
+   
+
+
+   .container-10{
+    height: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image:  url(..//img//imagenwachdogs.jpg);
+       grid-gap: 1rem;
+        display: grid;
+          grid-template-columns: 8rem ;
+           grid-template-rows:  12rem 0rem 0rem 10rem ;
+            grid-template-areas:  "nav" 
+                                  "nav" 
+                                  "nav"
+                                  "aside"
+                                  "aside"
+                                  "aside" ;}
+  .naV-Gridd{
+    border-radius: 0rem 1rem 1rem 0rem;
+       text-align:center;
+        background-color: orange ;
+         grid-area: nav;
+                  }
+
+
+  .asidE-Grid{
+    border-radius: 0rem 1rem 1rem 0rem;
+      background-color: orange;
+       margin: 0rem 0rem 0rem 0rem;
+       grid-area: aside;
+                   }
+
+
+    .uL-Nav{
+
+     list-style: none;
+     margin: 0rem 0rem 0rem 0rem;
+      padding: 0rem 0rem 0rem 0rem;
+      text-align: left;
+       flex-direction: column;
+          display: flex;  }
+
+
+ .uL-Nav li{
+      padding: 1rem 0rem 0rem .3rem;
+                }
+
+    .uL-Nav a{
+        color: black;
+        font-size: 1rem;
+        margin: 0rem 0rem 0rem 0rem;
+        padding: 0rem 0rem 0rem 0rem;
+        text-decoration: none;
+             }
+
+
+
+  .griDS-Aside{
+      padding: 0rem 0rem 0rem 0rem;
+       display: flex;
+        flex-direction: column;
+         list-style: none;
+               }
+
+  .griDS-Aside a{
+    font-size: 1rem;
+     color: black;
+       text-decoration: none;
+         padding: 1rem 0rem 1rem 1rem;
+          margin: rem 0rem 0rem 0rem;
+            }
+
+
+  .griDS-Aside li{
+      padding: 1rem 0rem 0rem 0rem;
+               }
+
+ 
+
+
+  /*termina nav y aside*/
+
+/* empieza section y main */
+
+  .griD-Img{
+
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    grid-column-gap: 1rem;
+    grid-template-columns: 1fr   ;
+                }     
+
+
+     .griD-Img div img{
+        padding: 0rem  0rem 0rem 0rem;
+        margin: 0rem -4rem 0rem 0rem ;
+        border-radius: 1rem;
+        height: 90%;
+            } 
+
+    .griD-Img img:hover {
+        box-shadow: -23px 25px 0px -13px rgba(255,255,255,0.64);;
+         height: 100%;
+              transition: all 1s; }
+
+
+     .griD-Img div {
+        color: orange;
+              font-size: 1rem; 
+                       }
+
+
+   .griD-Img div:hover{
+         color: orange;
+             font-size: 1.1rem;
+               transition: all 1s; 
+                       }
+              }
