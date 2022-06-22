@@ -31,13 +31,8 @@
 
 
 /* empieza nav y aside */
-.h3-Edicion{
-     font-size: 0rem;
-  margin: 0rem 0rem 0rem 0rem;
 
-}
-
-.sectioN-Nav-aside{
+.sectioN-Nav-aside{ 
    padding: 5rem 0rem 0rem 0rem;
      margin: 0rem 0rem 0rem 0rem;
                }
@@ -185,14 +180,14 @@ background-size: 40cm 20cm;
 
 
   .gridS-Article{
-     margin: 38rem 0rem 0rem -7rem;
+     margin: 38rem 0rem 0rem 0rem;
     display: grid;
           grid-row-gap: 5rem;
                }
 
     .gridS-Article  img{
-             height: 24.5rem;
-           padding-right: 9rem;
+             height: 10rem;
+           padding-right: 0rem;
               } 
 
   .gridS-Article div{
