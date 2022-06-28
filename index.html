@@ -5,20 +5,69 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pyramid</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/8ff436b74e.js" crossorigin="anonymous"></script>
 	<link rel="icon" href="icon/iconopyramid.ico">
 	<link rel="stylesheet" type="text/css" href="style/normalize.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/fontello.css">
   </head>
-  <body class="backgorounD-De-Proximolanzamientos"> 
-   	<header class="headeR-Pyramid headerdestokp" >
+
+
+<body class="fondO-Paratodo " > 
+
+	<header class="headeR-Pyramid headerdestokp">
 		<h1 class="pyramiD-Text">Pyramid</h1>
 	</header>
+
+	
+   <!-- start carousel -->
     <header>
-		
+	<div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active" data-bs-interval="10000">
+			<img src="banners//re4remake.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Resident evil 4 Remake</h5>
+			  <p>filtraciones, fecha de salida y todo lo que sabemos hasta ahora</p>
+			</div>
+		  </div>
+		  <div class="carousel-item" data-bs-interval="2000">
+			<img src="banners//diablo4.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Second slide label</h5>
+			  <p>Some representative placeholder content for the second slide.</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="banners//codmw2.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Third slide label</h5>
+			  <p>Some representative placeholder content for the third slide.</p>
+			</div>
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div>
+	</header>
+	<!-- carousel end -->
+
+   <!-- nav aside mobile -->
+    <header>
 		<nav class="navbar naV-Edicion fixed-top">
 			<div class="container-start" >
-			  <a class="navbar-brand" href="#">
+			  <a class="navbar-brand " href="#" ></a>
 			  <button  class="navbar-toggler"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
 				<span class="navbar-toggler-icon " ></span>
 			  </button>
@@ -31,7 +80,7 @@
 				  <ul class="navbar-nav justify-content-start flex-grow-1 pe-3" >
 
 					<li class="nav-item">
-						<h3><a class="nav-link" href="secciones//pyramidgamesoftheweek.html">PYRAMID GAMES OF THE WEEK</a></H3>
+						<h3><a class="nav-link" href="pyramidgamesoftheweek.html">PYRAMID GAMES OF THE WEEK</a></H3>
 					  </li>
 
 					  <li class="nav-item">
@@ -39,19 +88,19 @@
 					  </li>
 
 					  <li class="nav-item">
-						<a class="nav-link" href="secciones//proximoslanzamientos.html">Proximos lanzamientos</a>
+						<a class="nav-link" href="secciones/proximoslanzamientos.html">Proximos lanzamientos</a>
 					  </li>
 
 					  <li class="nav-item">
-						<a class="nav-link" href="secciones//noticias.html">Noticias</a>
+						<a class="nav-link" href="secciones/noticias.html">Noticias</a>
 					  </li>
 
 					  <li class="nav-item">
-						<a class="nav-link" href="secciones//categorias.html">categorias</a>
+						<a class="nav-link" href="secciones/categorias.htm">categorias</a>
 					  </li>
 
 					  <li class="nav-item">
-						<a class="nav-link" href="secciones//recomendados.html">Recomendados</a>
+						<a class="nav-link" href="secciones/recomendados.html">Recomendados</a>
 					  </li>
 
 					<li class="nav-item">
@@ -63,7 +112,7 @@
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="#">notificaciones</a>
+						<a class="nav-link" href="#">Notificaciones</a>
 					  </li>
 
 					  <li class="nav-item">
@@ -74,7 +123,6 @@
 						<a class="nav-link" href="#">Amigos</a>
 					  </li>
 				  </ul>
-				  
 				  <form class="d-flex" role="search">
 					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
 					<button class="btn btn-outline-success" type="submit">Search</button>
@@ -84,119 +132,173 @@
 			</div>
 		  </nav> 
     </header>
+     <!-- termina nav y aside mobile -->
 
-	<!-- banner secundario para vista mobile -->
-		<div class="imG-Banner">
-		   <img src="img//bannervistamobile.png">
+ <!-- start nav aside destokp -->
+	<nav class="naV-Color">
+		<ul class="naV-Pyrmid">
+			<li class="nav-item">
+				<a class="nav-link" href="pyramidgamesoftheweek.html">PYRAMID GAMES OF THE WEEK</a>
+			  </li>
+
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html">Tu tienda</a>
+			  </li>
+
+			  <li class="nav-item">
+				<a class="nav-link" href="secciones/proximoslanzamientos.html">Proximos lanzamientos</a>
+			  </li>
+
+			  <li class="nav-item">
+				<a class="nav-link" href="secciones/noticias.html">Noticias</a>
+			  </li>
+
+			  <li class="nav-item">
+				<a class="nav-link" href="secciones/categorias.htm">categorias</a>
+			  </li>
+
+			  <li class="nav-item">
+				<a class="nav-link" href="secciones/recomendados.html">Recomendados</a>
+			  </li>
+		</ul>
+	</nav>
+
+	<aside class="asidE-Nav">
+		<ul class="asidE-Ul">
+			<li><a href="">Favoritos</a></li>
+			<li><a href="">Notificaciones</a></li>
+			<li><a href="">Mensajes</a></li>
+			<li><a href="">Amigos</a></li>
+		</ul>
+	</aside>
+	
+
+    <!-- end nav y aside -->
+
+
+	<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-0">
+		<div class="col">
+			<div class="card">
+			  <img src="portadas-img/caratula-doom-eternal.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			  </div>
+			</div>
+		  </div>
+		<div class="col">
+			<div class="card">
+			  <img src="portadas-img/caratula-doom-eternal.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			  </div>
+			</div>
+		  </div>
+		<div class="col">
+			<div class="card">
+			  <img src="portadas-img/caratula-doom-eternal.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			  </div>
+			</div>
+		  </div>
+		<div class="col">
+		  <div class="card">
+			<img src="portadas-img/caratula-doom-eternal.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			</div>
+		  </div>
 		</div>
-	 <!--fin de banner secundario para vista mobile -->
-	 
-		<section class="sectioN-Nav-aside">
-		 <main class="container-10">
-	 
-		 <div class="naV-Gridd">
-			<nav>
-			<ul class="uL-Nav">
-			<li class="h3-Edicion"><a href="secciones//pyramidgamesoftheweek.html" >PYRAMID GAMES OF THE WEEK</a></li>
-			  <li><a href="index.html">Tu tienda</a></li>
-			  <li><a href="secciones//proximoslanzamientos.html">Proximos lanzamientos</a></li>
-			  <li><a href="secciones//noticias.html">Noticias</a></li>
-			  <li><a href="secciones//categorias.html">Categorias</a></li>
-			  <li><a href="secciones//recomendados.html">Recomendados</a></li>
-			</nav>
-		 </ul>
-		
+		<div class="col">
+		  <div class="card">
+			<img src="portadas-img/caratula-god-of-war.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			</div>
+		  </div>
 		</div>
-	 
-			   
-		<div class="asidE-Grid">
-			 <nav>
-			   <ul class="griDS-Aside">
-				 <li class="favoritOS-G"><a href="favoritos.html">Favoritos</a></li>
-		 <li class="notificacionES-G"><a href="notificaciones.html">Notificaciones</a></li>
-				 <li class="mensaJES-G"><a href="mensajes.html">Mensajes</a></li>
-				 <li class="guardadOS-G"><a href="Amigos.html">Amigos</a></li>
-				   </ul>
-			 </nav>  	
-		   </div> 
-	 
-	 <!-- termina aside y nav -->
-	 
-			</section>
-				 <main class="griD-Img">
-				   <div>
-					   <img src="portadas-img//caratula-doom-eternal.jpg">
-						<p>Grand thef auto v: 1500$</p>
-				   </div>
-				   <div>
-					  <img src="portadas-img//caratula-fifa22.jpg">
-					  <p>Grand thef auto v: 1500$</p>
-				   </div>
-				   <div>
-					   <img src="portadas-img//caratula-god-of-war.jpg">
-					   <p>Grand thef auto v: 1500$</p>
-				   </div>
-				   <div>
-					   <img src="portadas-img//caratula-gta-v.jpg">
-					   <p>Grand thef auto v: 1500$</p>
-				   </div>
-				   <div>
-					 <img src="portadas-img//caratula-mw2.jpg">
-					 <p>Grand thef auto v: 1500$</p>
-				   </div>
-				  <div>
-					 <img src="portadas-img//caratula-red-dead-redemtion-2.jpg">
-					 <p>Grand thef auto v: 1500$</p>
-				   </div>
-				   <div>
-					 <img src="portadas-img//caratula-the-last-of-uf-part-2.jpg">
-					 <p>Grand thef auto v: 1500$</p>
-				   </div>
-				   <div>
-					 <img src="portadas-img//the-last-of-us-remastered.jpg">
-					 <p>Grand thef auto v: 1500$</p>
-				   </div>
-				 </main>
-		   <section>		  
-		</section>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-	  </body>
-	</html>
+		<div class="col">
+		  <div class="card">
+			<img src="portadas-img/caratula-mw2.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card">
+			<img src="portadas-img/caratula-the-last-of-uf-part-2.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+   
+	
+	<footer class="bg-dark text-center text-white">
+		<!-- Grid container -->
+		<div class="container p-4 pb-0">
+		  <!-- Section: Social media -->
+		  <section class="mb-4">
+			<!-- Facebook -->
+			<a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/fede.caceres.127/" target="_blank" role="button"
+			  ><i class="fab fa-facebook-f"></i
+			></a>
+
+			<!-- Twitter -->
+			<a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/fede_kaceres" target="_blank" role="button"
+			  ><i class="fab fa-twitter"></i
+			></a>
+	  
+			<!-- Google -->
+			<a class="btn btn-outline-light btn-floating m-1" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGpGdmprlfvCDQsNsrVDcJTjvjv" target="_blank" role="button"
+			  ><i class="fab fa-google"></i
+			></a>
+	  
+			<!-- Instagram -->
+			<a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/_fede_kaceres_/" target="_blank" role="button"
+			  ><i class="fab fa-instagram"></i
+			></a>
+	  
+			<!-- Linkedin -->
+			<a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/federico-julian-caceres-baeza-7843a91b9/" target="_blank" role="button"
+			  ><i class="fab fa-linkedin-in"></i
+			></a>
+	  
+			<!-- Github -->
+			<a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Fedekaceres" target="_blank" role="button"
+			  ><i class="fab fa-github"></i
+			></a>
+		  </section>
+		  <!-- Section: Social media -->
+		</div>
+		<!-- Grid container -->
+	  
+		<!-- Copyright -->
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+		  © 2020 Copyright:
+		  <a class="text-white" href="index.html">Pyramid</a>
+		</div>
+		<!-- Copyright -->
+	  </footer>
+	
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+</body>

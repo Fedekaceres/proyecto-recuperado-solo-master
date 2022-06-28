@@ -2,17 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Smooch&display=swap');
 *{font-family: 'Iceberg', cursive;
               }
-   body{
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      background-repeat: no-repeat;
 
-                  }
+              .fondO-Paratodo{
+                background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);   /*Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                background-repeat: no-repeat;
+                         }
+
+
     .headeR-Pyramid{ 
-    position: fixed;   
          padding: 0rem 0rem 0rem 0rem;
-          margin: 0rem 0rem 1rem 0rem;
+          margin: 0rem 0rem 2rem 0rem;
             display: flex;
               justify-content: center;
                background-color: rgba(43, 86, 138, .4);  
@@ -29,178 +30,182 @@
           margin: 0rem 0rem 0rem 0rem;
                   } 
 
+            
+
 
 /* empieza nav y aside */
-
-.sectioN-Nav-aside{ 
-   padding: 5rem 0rem 0rem 0rem;
-     margin: 0rem 0rem 0rem 0rem;
-               }
-   
-  .container-10{
-  height: 40rem;
-    background-image: url(..//img//imagenwachdogs.jpg); 
-background-size: 40cm 20cm;    
-     background-repeat: repeat;
-     background-position: 0cm 1cm;
-       grid-gap: 1rem;
-         display: grid;
-          grid-template-columns: 8rem ;
-           grid-template-rows: 1rem 0rem 0rem 10rem;
-            grid-template-areas: "nav" "nav" "nav"
-                                "aside"
-                                 "aside"
-                                 "aside";               
-                                     }
-  .naV-Gridd{
-    text-align: center;
-    background: #0f0c29;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
-        grid-area: nav;
-          grid-column-start:1;
-            grid-column-end: 3;
-                  }
-
-  .asidE-Grid{
-     border-radius: 0rem 1rem 1rem 0rem;
-     background: #0f0c29;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        margin: 0rem 0rem 0rem 0rem;
-         grid-area: aside;
-         
-          grid-row-start:4;
-            grid-row-end:  6;
-             grid-column-start: 0;
-               grid-column-end:0 ;
-
-                   }
-    .uL-Nav{
-     list-style: none;
-       margin: 0rem 0rem 0rem 0rem;
-         padding: .5rem 1rem 0rem 1rem;
-          justify-content:space-between;
-            display: flex;  }
-
-    .uL-Nav a{
-      color:#ffffff;
-       font-size: 1.2rem;
-         padding: 0rem 0rem 0rem 0rem;
-          text-decoration: none;
-                 }
-
-
-
-  .griDS-Aside{
-      padding: 0rem 0rem 0rem 0rem;
-       display: flex;
-        flex-direction: column;
+   .nav-item{
          list-style: none;
-               }
+                }
 
-  .griDS-Aside a{
-     color: #ffffff;
-       text-decoration: none;
-         padding: 0rem 0rem 0rem 0rem;
-          margin: 0rem 0rem 0rem 0rem;
-            }
-
-
-  .griDS-Aside li{
-      padding: 2rem 0rem 1rem 1rem;
-               }
-
-  /* nav y aside con hover y transition */
-
-  .uL-Nav  a:hover{
-    color: #ec008c;
-    font-size: 1.3rem;
-    transition: all 1s;
-    
-     }
-
-     .griDS-Aside a:hover{
-      color: #ec008c;
-      font-size: 1.3rem;
-      transition: all 1s;
-      
-       }
-
-
-  /*termina nav y aside*/
-
- 
-/* empieza section y main */
-
- .griD-Img{
-  margin-left: 1rem;
-    margin-top: 2rem;
-       display: grid;
-         grid-gap: 1rem;
-           grid-column-gap: 1rem;
-             grid-row-gap: 2rem;
-              grid-column-gap: 1rem;
-                grid-template-columns: 1fr 1fr 1fr 1fr ;
-                       }     
-
-    .griD-Img div img{
-        padding: 0rem  0rem 0rem 0rem;
-          margin: 0rem -4rem 0rem 0rem ;
-           border-radius: 1rem;
-            height: 90%;
-                 } 
-
-  .griD-Img img:hover {
-       box-shadow: -23px 25px 0px -13px rgba(255,255,255,0.64);;
-          height: 100%;
-              transition: all 1s; }
-
-
-     .griD-Img div { 
-         color: orange;
-              font-size: 1.3rem; 
+   .naV-Pyrmid{
+    margin-top: 1rem; 
+    padding-top: 0rem;
+    padding-left: 1rem;
+      margin-right: 5rem;
+     display: flex;
+       justify-content: space-between;
+        flex-direction: row;
+          color: orange;
                        }
-    
 
+   .naV-Pyrmid li{
+     font-size:1.2rem;
+      padding-top: 1rem;
+        margin-right: 0rem;
+          margin-left: 0rem;
+                      }
+     .naV-Pyrmid a:hover{                                  
+             transition: 1s;
+              font-size: 1.4rem;
+               color: #f857a6;  /* fallback for old browsers */
+               color: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+                color: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                           }
+             
+
+    .asidE-Ul{
+       list-style: none;
+       background: #16222A;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+       background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        display: inline-flex;
+         flex-direction: column;
+            margin: 1rem 0rem 0rem 2rem;
+           padding: 0rem 5rem 2rem 0rem;
+            border-radius: 0rem 1rem 1rem 0rem;
+                             }
+                
+      .asidE-Ul li{
+        padding: 2rem 0rem 0rem 1rem;
+           margin: 0rem 0rem 0re 0rem;
+                       }
+
+    .asidE-Ul li a{
+        font-size: 1rem;
+          text-decoration: none;
+              color: orange;
+                   }
+                            
+  .asidE-Ul a:hover{
+        transition: 1s;
+          font-size: 1.2rem;
+            color: #f857a6;  /* fallback for old browsers */
+              color: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+                  color: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                                }
+
+/* main de index */
+
+.card{
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+.card:hover{
+  transition: 1s;
+  width: 21rem;
+
+}
+
+
+/* main de index end */
 
     /*proximoslanzamientos.html*/
+    
+             .prueba{
+           
+              height: 50%;
+              margin-top: 0rem;
+              display: grid;
+              grid-template-areas: ;
+              grid-template-rows: ;
+              grid-template-columns: ;
+                      }
 
-  .backgorounD-De-Proximolanzamientos{
-    background-color:#0F2027 ;
+             .prueba img{
+              margin: 2rem 1rem 0rem 1rem;
+              padding: 0rem 0rem 0rem 0rem;
+              height: 20rem;
+                       } 
 
+             iframe{
+              height: 20rem;
+              margin: 2rem 0rem 0rem 0rem;
+                          }
+
+                          .prueba div p{
+                            margin-left: 1rem;
+                            color: orange;
+                            font-size: 2rem;
+                          }
+         
+                  
+  /* termina proximoslanzamientos.html*/
+
+  /* configuraciones de proximos lanzamientos */
+  @media (max-width: 1024px){
+    .prueba{
+      margin-top: 3rem;
+      margin-left: 4rem;
+      display: grid;
+      grid-template-areas: ;
+      grid-template-rows:  ;
+      grid-template-columns:  ;
               }
 
-    .arT-Texh2{
-      font-size: 2rem;  
-    }
+     .prueba img{
+      height: 15rem;
+      margin: 0rem 0rem 0rem 0rem;
+      padding: 0rem 0rem 0rem 0rem;
 
+               } 
 
+     iframe{
+      height: 15rem;
+      width:26rem;
+      margin-left: .2rem;
+           margin-bottom: 1rem;
+           margin-top: -.1rem;
+                  }
+                
+                }
+                
+   @media (max-width: 933px){
+    .prueba{
+      margin-top: 3rem;
+      margin-left: 4rem;
+      display: grid;
+      grid-template-areas: ;
+      grid-template-rows:  ;
+      grid-template-columns:  ;
+              }
 
-  .gridS-Article{
-     margin: 38rem 0rem 0rem 0rem;
-    display: grid;
-          grid-row-gap: 5rem;
-               }
+     .prueba img{
+      height: 13rem;
+      margin: 0rem 0rem 0rem 0rem;
+      padding: 0rem 0rem 0rem 0rem;
 
-    .gridS-Article  img{
-             height: 10rem;
-           padding-right: 0rem;
-              } 
+               } 
 
-  .gridS-Article div{
-        color: orange;
-             } 
-             
-             .gridS-Article p{
-               line-height: 1.9rem;
-               padding: 0rem 0rem 0rem 0rem;
-               margin: 1rem 0rem 0rem 0rem;
-               font-size: 1.3rem;
-             } 
-  /* termina proximoslanzamientos.html*/
+     iframe{
+      height: 15rem;
+      width:26rem;
+      margin-left: .2rem;
+           margin-bottom: 1rem;
+           margin-top: -.1rem;
+                  }
+
+         .prueba div p{
+                margin-left: 0rem;
+                   color: orange;
+                    font-size: .9rem;
+                              }
+                  
+                }
+
+/* termin configuraciones de proximos lanzamientos */
 
 /*media vista tablet*/
   @media (max-width: 874px){
@@ -208,17 +213,30 @@ background-size: 40cm 20cm;
  *{font-family: 'Iceberg', cursive;
   box-sizing: border-box;}
 
+
+  .naV-Color{
+    display: none;
+               }
+
+
+  .asidE-Ul{
+    display: none;
+            }
+
    .headeR-Pyramid{
       display: none;
-    } 
+           }
+
     .naV-Edicion{
     background-color: rgba(43, 86, 138, .4);;
                 }
+                
         .navbar-toggler-icon{
           background-color: rgb(255, 255, 255);;
         height: 2rem;
-          
-        }  
+                 }
+                 
+                 
         .navbar-toggler{ 
           background-color: rgb(255, 255, 255);;
        } 
@@ -230,101 +248,12 @@ background-size: 40cm 20cm;
        } 
        .nav-link{
         color: white;
-       }      
+       } 
+       
+       .carousel{
+        padding-top: 4rem;
+       }
 
-   /* empieza nav y aside */
-
-  .sectioN-Nav-aside{ 
-    padding: 0rem 0rem 0rem 0rem;
-    margin: 0rem 0rem 0rem 0rem;
-               }
-
-   
-
-
-   .container-10{
-    display: none;
-    height: 0rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    background-image:  url(..//img//imagenwachdogs.jpg);
-       grid-gap: 1rem;
-        display: grid;
-          grid-template-columns: 8rem ;
-           grid-template-rows:  12rem 0rem 0rem 10rem ;
-            grid-template-areas:  "nav" 
-                                  "nav" 
-                                  "nav"
-                                  "aside"
-                                  "aside"
-                                  "aside" ;}
-  .naV-Gridd{
-    display: none;
-    border-radius: 0rem 1rem 1rem 0rem;
-       text-align:center;
-        background-color: orange ;
-         grid-area: nav;
-
-                  }
-
-
-  .asidE-Grid{
-    display: none;
-    border-radius: 0rem 1rem 1rem 0rem;
-      background-color: orange;
-       margin: 0rem 0rem 0rem 0rem;
-       grid-area: aside;
-                   }
-
-
-    .uL-Nav{
-
-     list-style: none;
-     margin: 0rem 0rem 0rem 0rem;
-      padding: 0rem 0rem 0rem 0rem;
-      text-align: left;
-       flex-direction: column;
-          display: flex;  }
-
-
- .uL-Nav li{
-      padding: 1rem 0rem 0rem .3rem;
-                }
-
-    .uL-Nav a{
-        color: black;
-        font-size: 1rem;
-        margin: 0rem 0rem 0rem 0rem;
-        padding: 0rem 0rem 0rem 0rem;
-        text-decoration: none;
-             }
-
-
-
-  .griDS-Aside{
-      padding: 0rem 0rem 0rem 0rem;
-       display: flex;
-        flex-direction: column;
-         list-style: none;
-               }
-
-  .griDS-Aside a{
-    font-size: 1rem;
-     color: black;
-       text-decoration: none;
-         padding: 1rem 0rem 1rem 1rem;
-          margin: rem 0rem 0rem 0rem;
-            }
-
-
-  .griDS-Aside li{
-      padding: 1rem 0rem 0rem 0rem;
-               }
-
- 
-
-
-  /*termina nav y aside*/
 
 /* empieza section y main */
 
@@ -369,46 +298,47 @@ background-size: 40cm 20cm;
 
 
     /*proximoslanzamientos.html*/
-
-    .arT-Texh2{
-      display: inline-flex;
-      margin: 0rem 0rem 0rem 0rem;
-      padding: 0rem 0re 0rem 0rem;
-    }
-    .gridS-Article{
-        margin: 0rem 0rem 0rem 0rem;
-        display: grid;
-        grid-row-gap: 3rem;
-
+    .prueba{
+      margin-top: 3rem;
+      margin-left: 2rem;
+      display: grid;
+      grid-template-areas: ;
+      grid-template-rows:  ;
+      grid-template-columns:  ;
               }
 
-       .gridS-Article  img{
-        border-radius: 2%;
-        height: 50vh;
-        width: 100vh;
+     .prueba img{
+      height: 9rem;
+      margin: 0rem 0rem 0rem 0rem;
+      padding: 0rem 0rem 0rem 0rem;
 
-       } 
+               } 
 
-      .gridS-Article div{
-          color: orange;
-             } 
-             .framE-Videos{
-              height: 1rem;
-             }        
+     iframe{
+      height: 15rem;
+      width:23rem;
+      margin-left: .2rem;
+           margin-bottom: 1rem;
+           margin-top: -.1rem;
+                  }
+                  .prueba div p{
+                    margin-left: 1rem;
+                    color: orange;
+                    font-size: 1rem;
+                  }         
+                
+                }
+                  
+   
 
   /* termina proximoslanzamientos.html*/
-
-
-
-
-              }
 
 
 
   /*media min para imagen vista mobile*/
   @media (min-width: 875px){
   .imG-Banner{display: none;}
-  .navbar {
+  .navbar{ 
     display: none;
                }
         
@@ -426,148 +356,47 @@ background-size: 40cm 20cm;
   box-sizing: border-box;}
 
 
- .imG-Banner{
-    padding-top: 2rem;
- }
-
-    .headeR-Pyramid{
-        width: 100%;
-                 }
-                 
-
-   .pyramiD-Text {
-      font-size: 3rem;
-        padding: 1rem 0rem 0rem 0rem;
-          margin: 0rem 0rem 0rem 0rem;
-                  } 
-
-   /* empieza nav y aside */
-
- .sectioN-Nav-aside{
-    padding: 0rem 0rem 0rem 0rem;
-    margin: -5rem 0rem 0rem 0rem;
-               }
-
-   
-
-
-   .container-10{
-    height: 0rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-image:  url(..//img//imagenwachdogs.jpg);
-       grid-gap: 1rem;
-        display: grid;
-          grid-template-columns: 8rem ;
-           grid-template-rows:  12rem 0rem 0rem 10rem ;
-            grid-template-areas:  "nav" 
-                                  "nav" 
-                                  "nav"
-                                  "aside"
-                                  "aside"
-                                  "aside" ;}
-  .naV-Gridd{
-    border-radius: 0rem 1rem 1rem 0rem;
-       text-align:center;
-        background-color: orange ;
-         grid-area: nav;
-                  }
-
-
-  .asidE-Grid{
-    border-radius: 0rem 1rem 1rem 0rem;
-      background-color: orange;
-       margin: 0rem 0rem 0rem 0rem;
-       grid-area: aside;
-                   }
-
-
-    .uL-Nav{
-
-     list-style: none;
-     margin: 0rem 0rem 0rem 0rem;
-      padding: 0rem 0rem 0rem 0rem;
-      text-align: left;
-       flex-direction: column;
-          display: flex;  }
-
-
- .uL-Nav li{
-      padding: 1rem 0rem 0rem .3rem;
-                }
-
-    .uL-Nav a{
-        color: black;
-        font-size: 1rem;
-        margin: 0rem 0rem 0rem 0rem;
-        padding: 0rem 0rem 0rem 0rem;
-        text-decoration: none;
-             }
-
-
-
-  .griDS-Aside{
-      padding: 0rem 0rem 0rem 0rem;
-       display: flex;
-        flex-direction: column;
-         list-style: none;
-               }
-
-  .griDS-Aside a{
-    font-size: 1rem;
-     color: black;
-       text-decoration: none;
-         padding: 1rem 0rem 1rem 1rem;
-          margin: rem 0rem 0rem 0rem;
-            }
-
-
-  .griDS-Aside li{
-      padding: 1rem 0rem 0rem 0rem;
-               }
-
  
 
 
-  /*termina nav y aside*/
 
-/* empieza section y main */
-
-  .griD-Img{
-
-    margin-left: 1rem;
-    margin-top: 2rem;
-    display: grid;
-    grid-gap: 1rem;
-    grid-column-gap: 1rem;
-    grid-row-gap: 2rem;
-    grid-column-gap: 1rem;
-    grid-template-columns: 1fr   ;
-                }     
-
-
-     .griD-Img div img{
-        padding: 0rem  0rem 0rem 0rem;
-        margin: 0rem -4rem 0rem 0rem ;
-        border-radius: 1rem;
-        height: 90%;
-            } 
-
-    .griD-Img img:hover {
-        box-shadow: -23px 25px 0px -13px rgba(255,255,255,0.64);;
-         height: 100%;
-              transition: all 1s; }
-
-
-     .griD-Img div {
-        color: orange;
-              font-size: 1rem; 
-                       }
-
-
-   .griD-Img div:hover{
-         color: orange;
-             font-size: 1.1rem;
-               transition: all 1s; 
-                       }
+    /*proximoslanzamientos.html*/
+    .prueba{
+      margin-left: 1rem;
+      margin-top: 3rem;
+      display: grid;
+      grid-template-areas: ;
+      grid-template-rows:  ;
+      grid-template-columns:  ;
               }
+
+     .prueba img{
+      height: 11rem;
+      width: 20rem;
+      margin: 0rem 0rem 1rem 0rem;
+      padding: 0rem 0rem 0rem 0rem;
+
+               } 
+
+     iframe{
+      height: 15rem;
+      width:20rem;
+      margin-left: .2rem;
+           margin-bottom: 1rem;
+           margin-top: -.1rem;
+                  }
+
+                  .prueba div p{
+                    margin-left: 1rem;
+                    color: orange;
+                    font-size: .9rem;
+                  }       
+
+
+
+           
+
+
+
+
+  }
